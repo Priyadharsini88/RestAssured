@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="NonBddStyle.GetAllEmployees">
+      <class name="Serializablejson.RestAssuredJsonValidation">
         <methods>
-          <include name="allEmployees"/>
+          <include name="ValidationusingJsonSchemainClasspath"/>
         </methods>
-      </class> <!-- NonBddStyle.GetAllEmployees -->
+      </class> <!-- Serializablejson.RestAssuredJsonValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
